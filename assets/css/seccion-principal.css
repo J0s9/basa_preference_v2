@@ -18,10 +18,11 @@ body{
     width: 100%;
     height: 70rem;
     text-align: center;
-    background: linear-gradient( to bottom, #00040B 71%, #79441E 100%);
+    background: linear-gradient( to bottom, #00040B 80%, #79441E 100%);
+    background-attachment: fixed;
 }
 
-.titulo{
+.feliz{
     display: block;
     margin-top: 4rem;
     font-size: 3.2rem;
@@ -29,25 +30,32 @@ body{
     font-family: var(--font-primary);
     text-align: center;
 }
+.cumple{
+    display: block;
+    font-size: 3.2rem;
+    color: var(--primary);
+    font-weight: lighter;
+}
 .logo-basa{
     margin-top: 5rem;
     width: 15.7rem;
     height: 1.7rem;
 }
 .fondo{
+    background-attachment: fixed;
     max-width: 50rem;
     margin-top: 3rem;
     width: 100%;
     height: 29.5rem;
 }
 .descripcion{
-    margin-top: 4rem;
+    margin-top: 1rem;
     font-size: 1.4rem;
     font-family: var(--font-primary);
     color: var(--primary);
 }
 .flecha {
-    margin-top: 6.7rem;
+    margin-top: 3rem;
     opacity: 0;
     animation: aparecer 1s ease-in-out forwards infinite;
 }
